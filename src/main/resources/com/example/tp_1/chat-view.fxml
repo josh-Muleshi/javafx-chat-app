@@ -207,7 +207,7 @@
             </HBox>
             <ScrollPane fx:id="sp_main" prefHeight="555.0" prefWidth="599.0">
                <content>
-                  <VBox fx:id="vbox_message" prefHeight="561.0" prefWidth="610.0" styleClass="light-gray-background" stylesheets="@value/style.css" />
+                  <VBox fx:id="vbox_message" prefHeight="553.0" prefWidth="596.0" styleClass="light-gray-background" stylesheets="@value/style.css" />
                </content></ScrollPane>
             <HBox prefHeight="62.0" prefWidth="599.0">
                <children>
@@ -223,6 +223,9 @@
                      <HBox.margin>
                         <Insets top="4.0" />
                      </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
                   </TextField>
                   <Pane prefHeight="62.0" prefWidth="58.0">
                      <children>

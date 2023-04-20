@@ -44,7 +44,7 @@ public class ChatController implements Initializable {
         Preferences preferences = Preferences.userRoot();
         preferences.putBoolean("is-auth", true);
 
-        screen2("login-view.fxml", "Login", event);
+        screen2("login-view.fxml", "Login server", event);
     }
 
     @Override

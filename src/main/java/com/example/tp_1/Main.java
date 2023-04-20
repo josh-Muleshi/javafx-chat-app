@@ -23,8 +23,8 @@ public class Main extends Application {
 
     public void getRoot(Root root, Stage stage) throws IOException {
         switch (root){
-            case HOME: { screen("chat-view.fxml", "Chatting App", stage); } break;
-            case LOGIN : { screen("login-view.fxml", "Login", stage); } break;
+            case HOME: { screen("chat-view.fxml", "Server Chatting App", stage); } break;
+            case LOGIN : { screen("login-view.fxml", "Login Server", stage); } break;
         }
     }
 

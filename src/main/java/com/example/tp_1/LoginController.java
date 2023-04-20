@@ -50,7 +50,7 @@ public class LoginController {
                     Preferences preferences = Preferences.userRoot();
                     preferences.putBoolean("is-auth", false);
 
-                    screen2("chat-view.fxml", "Chatting App", event);
+                    screen2("chat-view.fxml", "Server chatting App", event);
 
                     System.out.println(resultSet.getInt(1) + "  " + resultSet.getString(2) + "  " + resultSet.getString(3) + "  ");
                 }else {
