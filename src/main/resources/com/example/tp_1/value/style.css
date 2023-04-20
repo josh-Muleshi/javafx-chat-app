@@ -13,3 +13,7 @@
 .radius{
     -fx-background-radius: 100px;
 }
+
+.light-gray-background{
+    -fx-background-color: #DADADA;
+}
